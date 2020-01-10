@@ -1,6 +1,6 @@
 Name:           maven-changes-plugin
 Version:        2.8
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Plugin to support reporting of changes between releases
 
 Group:          Development/Libraries
@@ -100,6 +100,9 @@ rm -rf src/main/java/org/apache/maven/plugin/github
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.8-7
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 2.8-6
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
